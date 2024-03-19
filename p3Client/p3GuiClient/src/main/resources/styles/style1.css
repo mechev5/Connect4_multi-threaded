@@ -1,0 +1,9 @@
+.root{
+	-fx-background-color: blue;
+	-fx-background-position: center center;
+	-fx-background-size: 800 800;
+}
+#title{
+	-fx-font-family: Serif Regular;
+	-fx-font-size: 32px;
+}

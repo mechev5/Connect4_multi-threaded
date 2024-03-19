@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.geometry.Insets?>
+
+
+<BorderPane fx:id = "root" xmlns:fx="http://javafx.com/fxml/1" fx:controller = "myController">
+	<left>
+		<VBox fx:id = "vb">
+		</VBox>
+	</left>
+	<center>
+		<TextField fx:id = "tf1" promptText = "enter text here then press button 1" >
+		</TextField>
+	</center>
+	<right>
+		<TextField fx:id = "tf2" text = "final string goes here" editable="false">
+			<BorderPane.margin>
+				<Insets top= "10" left= "10" right= "10" bottom= "10"/>
+			</BorderPane.margin>
+		</TextField>
+	</right>
+</BorderPane>
+
